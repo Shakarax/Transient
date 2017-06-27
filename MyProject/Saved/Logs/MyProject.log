@@ -1,0 +1,823 @@
+﻿Log file open, 06/26/17 00:22:00
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1561434000) SRandInit(1561434000).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079866
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.26-07.22.01:216][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.26-07.22.01:216][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.26-07.22.01:291][  0]LogInit: Computer: SHAKARAX-PC
+[2017.06.26-07.22.01:291][  0]LogInit: User: Shakarax
+[2017.06.26-07.22.01:291][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.26-07.22.01:291][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.06.26-07.22.01:291][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.26-07.22.01:291][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.26-07.22.01:291][  0]LogMemory: Process Physical Memory: 272.54 MB used, 272.54 MB peak
+[2017.06.26-07.22.01:291][  0]LogMemory: Process Virtual Memory: 262.89 MB used, 262.89 MB peak
+[2017.06.26-07.22.01:291][  0]LogMemory: Physical Memory: 8602.77 MB used,  7736.69 MB free, 16339.46 MB total
+[2017.06.26-07.22.01:291][  0]LogMemory: Virtual Memory: 640.50 MB used,  7736.69 MB free, 134217728.00 MB total
+[2017.06.26-07.22.01:350][  0]LogInit: Using OS detected language (en-US).
+[2017.06.26-07.22.01:350][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.26-07.22.01:352][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.26-07.22.02:088][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.26-07.22.02:123][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.06.26-07.22.02:123][  0]LogD3D11RHI:       4062/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.06.26-07.22.02:124][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.26-07.22.02:124][  0]LogD3D11RHI:       0/0/8169 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.26-07.22.02:124][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.26-07.22.02:129][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.26-07.22.02:129][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.26-07.22.02:129][  0]LogWindows: EnumDisplayDevices:
+[2017.06.26-07.22.02:130][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.06.26-07.22.02:130][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2017.06.26-07.22.02:130][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.26-07.22.02:130][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.26-07.22.02:130][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.26-07.22.02:130][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.06.26-07.22.02:130][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.26-07.22.02:130][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.26-07.22.02:130][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.26-07.22.02:152][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.26-07.22.02:161][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.26-07.22.02:163][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Intermediate/Shaders/WorkingDirectory/11656/).
+[2017.06.26-07.22.02:163][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shakarax/AppData/Local/Temp/UnrealShaderWorkingDir/A98C9AAE480FB354997562AC016AEC00/'.
+[2017.06.26-07.22.02:163][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.26-07.22.02:967][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.26-07.22.03:029][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.26-07.22.03:079][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.26-07.22.03:121][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.26-07.22.03:166][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.26-07.22.03:210][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.26-07.22.03:255][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.26-07.22.03:299][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.26-07.22.03:339][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.26-07.22.03:380][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.26-07.22.03:424][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.26-07.22.03:468][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.26-07.22.03:513][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.26-07.22.03:558][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.26-07.22.03:606][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.26-07.22.03:696][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.26-07.22.03:696][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.26-07.22.03:735][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.26-07.22.03:817][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.26-07.22.03:843][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.26-07.22.03:888][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.26-07.22.03:928][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.26-07.22.03:969][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.26-07.22.04:015][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.26-07.22.04:016][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.26-07.22.04:470][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.26-07.22.04:557][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Shakarax/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.26-07.22.04:557][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Shakarax/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.26-07.22.04:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.26-07.22.04:557][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.26-07.22.04:557][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.26-07.22.04:557][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.26-07.22.04:572][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.26-07.22.04:584][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shakarax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.26-07.22.04:592][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.26-07.22.04:593][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.26-07.22.04:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.26-07.22.04:593][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.26-07.22.04:875][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.26-07.22.04:952][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.26-07.22.05:098][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.26-07.22.05:137][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.26-07.22.05:177][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.26-07.22.05:177][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.26-07.22.05:177][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.26-07.22.05:659][  0]LogNetVersion: MyProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1111101373)
+[2017.06.26-07.22.05:720][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.06.26-07.22.05:789][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.047493 seconds
+[2017.06.26-07.22.05:796][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.26-07.22.05:796][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.26-07.22.05:796][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.26-07.22.05:865][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.26-07.22.07:916][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.26-07.22.07:960][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.26-07.22.08:390][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.26-07.22.08:719][  0]SourceControl: Info Source control is disabled
+[2017.06.26-07.22.08:743][  0]SourceControl: Info Source control is disabled
+[2017.06.26-07.22.08:780][  0]SourceControl: Info Source control is disabled
+[2017.06.26-07.22.08:816][  0]SourceControl: Info Source control is disabled
+[2017.06.26-07.22.09:019][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.06.26-07.22.09:019][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.06.26-07.22.09:019][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2017.06.26-07.22.09:349][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.26-07.22.09:806][  0]LogEngine: Initializing Engine...
+[2017.06.26-07.22.09:806][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.26-07.22.09:964][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.26-07.22.09:964][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.26-07.22.10:068][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.26-07.22.10:075][  0]LogInit: XAudio2 using 'Speakers (Bose USB Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2017.06.26-07.22.10:083][  0]LogInit: FAudioDevice initialized.
+[2017.06.26-07.22.10:120][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Shakarax/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.26-07.22.10:132][  0]LogInit: Texture streaming: Enabled
+[2017.06.26-07.22.10:214][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.26-07.22.10:394][  0]LogInit: Transaction tracking system initialized
+[2017.06.26-07.22.10:637][  0]BlueprintLog: New page: Editor Load
+[2017.06.26-07.22.11:406][  0]LocalizationService: Info Localization service is disabled
+[2017.06.26-07.22.11:943][  0]LogConsoleResponse:Display: 
+[2017.06.26-07.22.12:053][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.26-07.22.12:053][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.26-07.22.12:257][  0]LogFileCache: Scanning file cache for directory 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/' took 0.01s
+[2017.06.26-07.22.12:841][  0]SourceControl: Info Source control is disabled
+[2017.06.26-07.22.12:842][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.06.26-07.22.12:850][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.06.26-07.22.12:876][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.06.26-07.22.12:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.06.26-07.22.12:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.06.26-07.22.12:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.06.26-07.22.12:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.06.26-07.22.12:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.06.26-07.22.12:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.06.26-07.22.12:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.06.26-07.22.12:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.06.26-07.22.12:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.06.26-07.22.12:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.06.26-07.22.12:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.06.26-07.22.12:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.06.26-07.22.12:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.06.26-07.22.12:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.06.26-07.22.12:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.06.26-07.22.12:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.06.26-07.22.12:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Fire01.uasset"
+[2017.06.26-07.22.12:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.06.26-07.22.12:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.06.26-07.22.12:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.06.26-07.22.13:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Light01.uasset"
+[2017.06.26-07.22.13:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.06.26-07.22.13:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Light02.uasset"
+[2017.06.26-07.22.13:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.06.26-07.22.13:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.06.26-07.22.13:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.06.26-07.22.13:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.06.26-07.22.13:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.06.26-07.22.13:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.06.26-07.22.13:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.06.26-07.22.13:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.06.26-07.22.13:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.06.26-07.22.13:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Steam01.uasset"
+[2017.06.26-07.22.13:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.06.26-07.22.13:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.06.26-07.22.13:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.06.26-07.22.13:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.06.26-07.22.13:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.06.26-07.22.13:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.06.26-07.22.13:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.06.26-07.22.13:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.06.26-07.22.13:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.06.26-07.22.13:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.06.26-07.22.13:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.06.26-07.22.13:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.06.26-07.22.13:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.06.26-07.22.13:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.06.26-07.22.13:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.06.26-07.22.13:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.06.26-07.22.13:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.06.26-07.22.13:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.06.26-07.22.13:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.06.26-07.22.13:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.06.26-07.22.13:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.06.26-07.22.13:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.06.26-07.22.13:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Maps/StarterMap.umap"
+[2017.06.26-07.22.13:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.06.26-07.22.13:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.06.26-07.22.13:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.06.26-07.22.13:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.06.26-07.22.13:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.06.26-07.22.13:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.06.26-07.22.13:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.06.26-07.22.13:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.06.26-07.22.13:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.06.26-07.22.13:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.06.26-07.22.13:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.06.26-07.22.13:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.06.26-07.22.13:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.06.26-07.22.13:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.06.26-07.22.13:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.06.26-07.22.13:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.06.26-07.22.13:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.06.26-07.22.13:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.06.26-07.22.13:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.06.26-07.22.13:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.06.26-07.22.13:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.06.26-07.22.13:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.06.26-07.22.13:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.06.26-07.22.13:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.06.26-07.22.13:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.06.26-07.22.13:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.06.26-07.22.13:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.06.26-07.22.13:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.06.26-07.22.13:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.06.26-07.22.13:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.06.26-07.22.13:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.06.26-07.22.13:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.06.26-07.22.13:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.06.26-07.22.13:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.06.26-07.22.13:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.06.26-07.22.13:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.06.26-07.22.13:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.06.26-07.22.13:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.06.26-07.22.13:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.06.26-07.22.13:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.06.26-07.22.13:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.06.26-07.22.13:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.06.26-07.22.13:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.06.26-07.22.13:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.06.26-07.22.13:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.06.26-07.22.13:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.06.26-07.22.13:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.06.26-07.22.13:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.06.26-07.22.13:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.06.26-07.22.13:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.06.26-07.22.13:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.06.26-07.22.13:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.06.26-07.22.13:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.06.26-07.22.13:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.06.26-07.22.13:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.06.26-07.22.13:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.06.26-07.22.13:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.06.26-07.22.13:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.06.26-07.22.13:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.06.26-07.22.13:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.06.26-07.22.13:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.06.26-07.22.13:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.06.26-07.22.13:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.06.26-07.22.13:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.06.26-07.22.13:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.06.26-07.22.13:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Door.uasset"
+[2017.06.26-07.22.13:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.06.26-07.22.13:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.06.26-07.22.13:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.06.26-07.22.13:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.06.26-07.22.14:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.06.26-07.22.14:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.06.26-07.22.14:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.06.26-07.22.14:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.06.26-07.22.14:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.06.26-07.22.14:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.06.26-07.22.14:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.06.26-07.22.14:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.06.26-07.22.14:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.06.26-07.22.14:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.06.26-07.22.14:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.06.26-07.22.14:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.06.26-07.22.14:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.06.26-07.22.14:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.06.26-07.22.14:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.06.26-07.22.14:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.06.26-07.22.14:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.06.26-07.22.14:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.06.26-07.22.14:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.06.26-07.22.14:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.06.26-07.22.14:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.06.26-07.22.14:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.06.26-07.22.14:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.06.26-07.22.14:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.06.26-07.22.14:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.06.26-07.22.14:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.06.26-07.22.14:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.06.26-07.22.14:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.06.26-07.22.14:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.06.26-07.22.14:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.06.26-07.22.14:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.06.26-07.22.14:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.06.26-07.22.14:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.06.26-07.22.14:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.06.26-07.22.14:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.06.26-07.22.14:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.06.26-07.22.14:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.06.26-07.22.14:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.06.26-07.22.14:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.06.26-07.22.14:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.06.26-07.22.14:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.06.26-07.22.14:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.06.26-07.22.14:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.06.26-07.22.14:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.06.26-07.22.14:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.06.26-07.22.14:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.06.26-07.22.14:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.06.26-07.22.14:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.06.26-07.22.14:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.06.26-07.22.14:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.06.26-07.22.14:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.06.26-07.22.14:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.06.26-07.22.14:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.06.26-07.22.14:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.06.26-07.22.14:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.06.26-07.22.14:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.06.26-07.22.14:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.06.26-07.22.14:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.06.26-07.22.14:750][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.06.26-07.22.14:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.06.26-07.22.14:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.06.26-07.22.14:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.06.26-07.22.14:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.06.26-07.22.14:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.06.26-07.22.14:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.06.26-07.22.14:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.06.26-07.22.14:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.06.26-07.22.14:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.06.26-07.22.14:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.06.26-07.22.15:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.06.26-07.22.15:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.06.26-07.22.15:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.06.26-07.22.15:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.06.26-07.22.15:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.06.26-07.22.15:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.06.26-07.22.15:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.06.26-07.22.15:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.06.26-07.22.15:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.06.26-07.22.15:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.06.26-07.22.15:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.06.26-07.22.15:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.06.26-07.22.15:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.06.26-07.22.15:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.06.26-07.22.15:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.06.26-07.22.15:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.06.26-07.22.15:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.06.26-07.22.15:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.06.26-07.22.15:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.06.26-07.22.15:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.06.26-07.22.15:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.06.26-07.22.15:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.06.26-07.22.15:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.06.26-07.22.15:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.06.26-07.22.15:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.06.26-07.22.15:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.06.26-07.22.15:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.06.26-07.22.15:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.06.26-07.22.15:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.06.26-07.22.15:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.06.26-07.22.15:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.06.26-07.22.15:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.06.26-07.22.15:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.06.26-07.22.15:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.06.26-07.22.15:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.06.26-07.22.15:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.06.26-07.22.15:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.06.26-07.22.15:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.06.26-07.22.15:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.06.26-07.22.16:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.06.26-07.22.16:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.06.26-07.22.16:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.06.26-07.22.16:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.06.26-07.22.16:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.06.26-07.22.16:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.06.26-07.22.16:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.06.26-07.22.16:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.06.26-07.22.16:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.06.26-07.22.16:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.06.26-07.22.16:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.06.26-07.22.16:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.06.26-07.22.16:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.06.26-07.22.16:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.06.26-07.22.16:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.06.26-07.22.16:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.06.26-07.22.16:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.06.26-07.22.16:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.06.26-07.22.16:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.06.26-07.22.16:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.06.26-07.22.16:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.06.26-07.22.16:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.06.26-07.22.16:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.06.26-07.22.16:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.06.26-07.22.16:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.06.26-07.22.16:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.06.26-07.22.16:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.06.26-07.22.16:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.06.26-07.22.16:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.06.26-07.22.16:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.06.26-07.22.16:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.06.26-07.22.16:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.06.26-07.22.16:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.06.26-07.22.16:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.06.26-07.22.16:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.06.26-07.22.16:609][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.06.26-07.22.16:690][  0]LogSavePackage: Save=11.65ms
+[2017.06.26-07.22.16:690][  0]LogSavePackage: Moving 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Saved/Floor_400x400A39C16804AB7456CB27406BB5927454B.tmp' to 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.06.26-07.22.16:692][  0]LogSavePackage:Display: Finished SavePackage F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.06.26-07.22.16:692][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.06.26-07.22.16:695][  0]Cmd: MAP LOAD FILE="F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.26-07.22.16:695][  0]LightingResults: New page: Lighting Build
+[2017.06.26-07.22.16:727][  0]MapCheck: New page: Map Check
+[2017.06.26-07.22.16:727][  0]LightingResults: New page: Lighting Build
+[2017.06.26-07.22.17:023][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.06.26-07.22.17:422][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2017.06.26-07.22.17:781][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2017.06.26-07.22.18:433][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2017.06.26-07.22.18:643][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2017.06.26-07.22.18:674][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.06.26-07.22.18:825][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2017.06.26-07.22.18:989][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2017.06.26-07.22.19:211][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2017.06.26-07.22.19:337][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2017.06.26-07.22.19:357][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.06.26-07.22.19:521][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2017.06.26-07.22.19:667][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2017.06.26-07.22.19:893][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2017.06.26-07.22.20:002][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2017.06.26-07.22.20:010][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
+[2017.06.26-07.22.20:057][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
+[2017.06.26-07.22.20:105][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
+[2017.06.26-07.22.20:151][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
+[2017.06.26-07.22.20:199][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
+[2017.06.26-07.22.20:245][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
+[2017.06.26-07.22.20:295][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
+[2017.06.26-07.22.20:338][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2017.06.26-07.22.20:468][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.26-07.22.20:479][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.26-07.22.20:495][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.26-07.22.20:536][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.545ms to complete.
+[2017.06.26-07.22.20:536][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.841
+[2017.06.26-07.22.20:667][  0]LogCollectionManager: Loaded 0 collections in 0.001829 seconds
+[2017.06.26-07.22.21:344][  0]LogFileCache: Scanning file cache for directory 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Saved/Collections/' took 0.01s
+[2017.06.26-07.22.21:344][  0]LogFileCache: Scanning file cache for directory 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/Developers/Shakarax/Collections/' took 0.01s
+[2017.06.26-07.22.21:344][  0]LogFileCache: Scanning file cache for directory 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/Collections/' took 0.01s
+[2017.06.26-07.22.21:344][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.26-07.22.21:353][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2329 classes and 491 folders.
+[2017.06.26-07.22.21:403][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.26-07.22.21:428][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.26-07.22.21:460][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.26-07.22.21:491][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.26-07.22.21:494][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.26-07.22.21:496][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.26-07.22.21:500][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.26-07.22.21:523][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.06.26-07.22.21:573][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.26-07.22.21:689][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.06.26-07.22.21:689][  0]LogLoad: (Engine Initialization) Total time: 21.68 seconds
+[2017.06.26-07.22.21:689][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.06.26-07.22.21:689][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.26-07.22.21:689][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.26-07.22.21:699][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-07.22.21:699][  0]LogOcInput: OculusInput pre-init called
+[2017.06.26-07.22.21:699][  0]LogHMD: Starting GearVRController plugin
+[2017.06.26-07.22.21:715][  0]LogAssetRegistry: Asset discovery search completed in 16.0160 seconds
+[2017.06.26-07.22.21:716][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.26-07.22.21:716][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.06.26-07.22.22:490][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.26-07.22.50:489][438]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.06.26-07.23.03:392][790]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.26-07.23.03:677][790]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.06.26-07.23.04:121][790]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.26-07.23.04:170][790]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.26-07.23.04:315][791]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.26-07.27.14:190][776]LogRenderer: Reallocating scene render targets to support 1208x900 NumSamples 1 (Frame:1).
+[2017.06.26-07.30.59:770][590]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.26-07.30.59:840][590]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.26-07.30.59:840][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.26-07.30.59:841][590]PIE: New page: PIE session: FirstPersonExampleMap (Jun 25, 2017, 5:30:59 PM)
+[2017.06.26-07.30.59:841][590]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.06.26-07.30.59:864][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023296s)
+[2017.06.26-07.30.59:865][590]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.06.26-07.30.59:865][590]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2017.06.26-07.30.59:865][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024505s)
+[2017.06.26-07.30.59:895][590]LogInit: XAudio2 using 'Speakers (Bose USB Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2017.06.26-07.30.59:901][590]LogInit: FAudioDevice initialized.
+[2017.06.26-07.30.59:941][590]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.06.26-07.30.59:944][590]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.06.26-00.30.59
+[2017.06.26-07.30.59:944][590]LogWorld: Bringing up level for play took: 0.001771
+[2017.06.26-07.30.59:977][590]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.26-07.30.59:978][590]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.312
+[2017.06.26-07.30.59:978][590]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.26-07.31.12:165][889]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-146.266 Y=-393.727 Z=149.322] for [FirstPersonProjectile_C]
+[2017.06.26-07.31.22:203][977]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.26-07.31.22:251][977]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.06.26-07.33.24:588][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.26-07.33.24:637][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.26-07.33.24:685][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.26-07.33.24:730][509]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.26-07.33.24:867][510]Cmd: QUIT_EDITOR
+[2017.06.26-07.33.25:617][510]LogExit: Preparing to exit.
+[2017.06.26-07.33.26:228][510]LogExit: Editor shut down
+[2017.06.26-07.33.26:231][510]LogExit: Transaction tracking system shut down
+[2017.06.26-07.33.26:349][510]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.26-07.33.26:349][510]LogExit: Object subsystem successfully closed.
+[2017.06.26-07.33.26:364][510]LogD3D11RHI: Shutdown
+[2017.06.26-07.33.26:364][510]LogD3D11RHI: CleanupD3DDevice
+[2017.06.26-07.33.26:425][510]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.26-07.33.26:438][510]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.06.26-07.33.26:438][510]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.26-07.33.26:438][510]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.26-07.33.26:439][510]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.26-07.33.26:439][510]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.26-07.33.26:439][510]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.26-07.33.26:439][510]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.26-07.33.26:439][510]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.26-07.33.26:446][510]LogDirectoryWatcher: A directory notification for 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/Collections/' was aborted.
+[2017.06.26-07.33.26:446][510]LogDirectoryWatcher: A directory notification for 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/Developers/Shakarax/Collections/' was aborted.
+[2017.06.26-07.33.26:446][510]LogDirectoryWatcher: A directory notification for 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Saved/Collections/' was aborted.
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.26-07.33.26:446][510]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.26-07.33.26:771][510]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.26-07.33.26:834][510]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.26-07.33.26:839][510]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.26-07.33.26:857][510]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.26-07.33.26:858][510]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.26-07.33.26:959][510]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.26-07.33.27:059][510]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.26-07.33.27:059][510]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.26-07.33.27:059][510]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.26-07.33.27:059][510]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.26-07.33.27:059][510]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.26-07.33.27:059][510]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.26-07.33.27:060][510]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.26-07.33.27:062][510]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.26-07.33.27:062][510]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.26-07.33.27:062][510]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.26-07.33.27:062][510]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.26-07.33.27:062][510]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.26-07.33.27:062][510]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.26-07.33.27:150][510]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.26-07.33.27:150][510]LogDirectoryWatcher: A directory notification for 'F:/Users/Shakarax/Documents/GitHub/Transient/MyProject/Content/' was aborted.
+[2017.06.26-07.33.27:150][510]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.26-07.33.27:150][510]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.26-07.33.27:153][510]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.26-07.33.27:220][510]LogDerivedDataCache: Shutdown
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.26-07.33.27:220][510]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.26-07.33.27:220][510]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.26-07.33.27:220][510]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.26-07.33.27:220][510]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4D61C4F7-4BB0-A44A-006B-D198C5C9BDDD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=b4b5f1ab4f48de1ad2ffb4bd21168f35%7Ccc64a75ecad1436db3f710ee0b0a7dd5%7Cf3f7cff5-7a6b-4f6b-ac94-3f08f1222a4a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.26-07.33.27:235][510]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.26-07.33.27:236][510]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.26-07.33.27:237][510]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.26-07.33.27:238][510]LogExit: Exiting.
+[2017.06.26-07.33.27:247][510]Log file closed, 06/26/17 00:33:27
